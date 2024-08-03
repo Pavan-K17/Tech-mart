@@ -1,0 +1,39 @@
+.item {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .item img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .item h3, .item p, .item button {
+    margin: 5px 0;
+  }
+  
+  .item button {
+    padding: 5px 10px;
+    background-color:rgb(255, 200, 0);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .item button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  

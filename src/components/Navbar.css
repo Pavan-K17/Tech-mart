@@ -1,0 +1,29 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .logo img {
+    max-height: 50px;
+    max-width: 50px;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+  
+  
+  .name{
+    font-size: 30px;
+    font-weight: 1000;
+  }
+  
